@@ -1,0 +1,35 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "Utility.h"
+#import "AppDelegate.h"
+#import "NSSystemSetMessage.h"
+#import "GolfPersonInfo.h"
+
+#define KGolfNull        (id)[NSNull null]
+
+#define BigHugeFontSize 32.0f
+#define HugeFontSize    24.0f
+#define BigFontSize     21.0f
+#define MidFontSize     16.0f
+#define SmallFontSize   14.0f
+#define TinyFontSize    12.0f
+
+#define Golf_Version    "1.0"
+
+#define SERVER_NAME     @"http://210.72.225.19:40011"
+
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
